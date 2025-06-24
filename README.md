@@ -1,31 +1,31 @@
-# Pokédex - Projeto em Next.js
+# Pokédex – Project in Next.js
 
-Este é um projeto de Pokédex desenvolvido com **Next.js**, como parte de um estudo prático em desenvolvimento web. Criado em 2025, o objetivo principal é explorar conceitos modernos de desenvolvimento front-end utilizando APIs públicas.
+This is a Pokédex project developed with **Next.js**, as part of a hands-on study in web development. Created in 2025, the main goal is to explore modern front-end development concepts using public APIs.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **Next.js:** 15.3.4 – Framework React para aplicações modernas
-- **Node.js:** 18.20.8
-- **Font Awesome:** Ícones para interface
+- **Next.js:** 15.3.4 – React framework for modern applications  
+- **Node.js:** 18.20.8  
+- **Font Awesome:** Icons for the interface
 
-## 🔗 APIs Utilizadas
+## 🔗 APIs Used
 
-- 🎨 **Imagens oficiais dos Pokémon:**  
+- 🎨 **Official Pokémon Images:**  
   [https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/)
 
-- 📦 **Dados dos Pokémon:**  
+- 📦 **Pokémon Data:**  
   [https://pokeapi.co/api/v2/pokemon/](https://pokeapi.co/api/v2/pokemon/)
 
-## 🎯 Objetivo
+## 🎯 Purpose
 
-Este projeto tem fins exclusivamente **educativos**. Ele visa demonstrar o consumo de APIs públicas, uso de componentes otimizados, roteamento dinâmico e outras funcionalidades oferecidas pelo Next.js.
+This project is intended strictly for **educational** purposes. It aims to demonstrate the use of public APIs, optimized components, dynamic routing, and other features offered by Next.js.
 
-## 📸 Demonstração Visual
+## 📸 Visual Demonstration
 
-![Preview da Pokédex 1](https://github.com/user-attachments/assets/10734ff3-b683-4834-adcc-5d739d9548ea)
-![Preview da Pokédex 2](https://github.com/user-attachments/assets/0863c18c-e79c-44ea-9774-d0fb962d888f)
+![Pokédex Preview 1](https://github.com/user-attachments/assets/10734ff3-b683-4834-adcc-5d739d9548ea)  
+![Pokédex Preview 2](https://github.com/user-attachments/assets/0863c18c-e79c-44ea-9774-d0fb962d888f)
 
-## 📁 Como Rodar Localmente
+## 📁 How to Run Locally
 
 ```bash
 git clone https://github.com/Etepsed/poke-dex.git
