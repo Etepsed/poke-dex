@@ -1,0 +1,9 @@
+.elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: solid black 0.1rem;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  background-color: rgb(36, 36, 36);
+  list-style: none;
+  gap: 1rem;
+  height: 3rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}

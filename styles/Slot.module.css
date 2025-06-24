@@ -1,0 +1,29 @@
+.slot {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  width: 18rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.slot img {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  width: 15rem;
+}
+.slot a {
+  margin-top: 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: rgb(59, 59, 59);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 5px;
+}
+.slot a:hover {
+  background-color: rgb(31, 31, 31);
+}

@@ -1,0 +1,85 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90vh;
+  background-color: rgb(216, 216, 216);
+}
+.contener {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  min-height: 60vh;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.tech {
+  padding-left: 1rem;
+  width: 96%;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  color: rgb(88, 88, 88);
+}
+.api {
+  user-select: text;
+  padding-left: 1rem;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+.profile img {
+  border: solid 0.3rem black;
+  border-radius: 50%;
+}
+.hub {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: left;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 96%;
+}
+.itemhub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.itemhub:hover {
+  color: rgb(107, 107, 107);
+}
+.itemhub i {
+  font-size: 2.4rem;
+}
+.nome {
+  text-decoration: none;
+  color: black;
+  padding-left: 0.3rem;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre - Etepsed</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        background: white;
+        padding: 2rem;
+        border-radius: 20px;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .avatar {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 4px solid #3b82f6;
+        object-fit: cover;
+      }
+
+      h2 {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        color: #222;
+      }
+
+      .github-icon {
+        margin: 1rem 0;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: #000;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .github-icon svg {
+        fill: white;
+        width: 24px;
+        height: 24px;
+      }
+
+      p {
+        color: #555;
+        font-size: 1rem;
+      }
+
+      .section {
+        text-align: left;
+        margin-top: 2rem;
+      }
+
+      .section h3 {
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+
+      .section ul {
+        padding-left: 1.2rem;
+        color: #444;
+      }
+
+      .section a {
+        color: #3b82f6;
+        text-decoration: underline;
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          padding: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="avatar.png" alt="Avatar Etepsed" class="avatar" />
+      <h2>Etepsed</h2>
+
+      <a
+        href="https://github.com/etepsed"
+        target="_blank"
+        class="github-icon"
+        title="GitHub"
+      >
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M12 0.5C5.37 0.5 0 5.87 0 12.5c0 5.29 3.438 9.78 8.205 11.385.6.113.82-.26.82-.577v-2.03c-3.338.726-4.033-1.61-4.033-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.238 1.84 1.238 1.07 1.835 2.807 1.305 3.492.997.108-.775.42-1.305.763-1.605-2.665-.3-5.466-1.33-5.466-5.93 0-1.31.47-2.38 1.235-3.22-.125-.303-.535-1.52.115-3.17 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.655 1.65.245 2.867.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.37.81 1.096.81 2.21v3.28c0 .32.215.694.825.576C20.565 22.28 24 17.79 24 12.5 24 5.87 18.63.5 12 .5z"
+          />
+        </svg>
+      </a>
+
+      <p>Este site foi desenvolvido em 2025 com fins educativos.</p>
+
+      <div class="section">
+        <h3>Tecnologias utilizadas:</h3>
+        <ul>
+          <li><strong>Next.js</strong> como framework principal</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>APIs:</h3>
+        <ul>
+          <li>
+            API de imagens dos Pokémon:<br />
+            <a
+              href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"
+              target="_blank"
+            >
+              https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/
+            </a>
+          </li>
+          <li>
+            API de dados dos Pokémon:<br />
+            <a href="https://pokeapi.co/api/v2/pokemon/" target="_blank">
+              https://pokeapi.co/api/v2/pokemon/
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
